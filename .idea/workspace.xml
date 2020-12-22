@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85227214-1fd8-4426-a202-193689472a55" name="Default Changelist" comment="" />
+    <list default="true" id="85227214-1fd8-4426-a202-193689472a55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/artificial_neural_network/XorImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manageBytes/LoadBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageBytes/LoadBytes.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fgQg7Eb53EJx9sHUSoKY53Fp5j" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.XorImplementation">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.Main" />
       <module name="NeuralNetwork" />
@@ -45,8 +52,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XorImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="artificial_neural_network.XorImplementation" />
+      <module name="NeuralNetwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="artificial_neural_network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XorImplementation" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Network" />
       </list>
@@ -66,41 +87,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="88" width="816" height="729" key="#Intentions" timestamp="1597188933420">
+    <state width="1557" height="92" key="GridCell.Tab.0.bottom" timestamp="1608650196408">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="88" width="816" height="729" key="#Intentions/0.0.1600.860@0.0.1600.860" timestamp="1597188933420" />
-    <state x="517" y="100" key="#Main" timestamp="1597171460674">
+    <state width="1557" height="92" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1608650196408" />
+    <state width="1557" height="92" key="GridCell.Tab.0.center" timestamp="1608650196408">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="517" y="100" key="#Main/0.0.1600.860@0.0.1600.860" timestamp="1597171460674" />
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1596719226510">
+    <state width="1557" height="92" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1608650196408" />
+    <state width="1557" height="92" key="GridCell.Tab.0.left" timestamp="1608650196408">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1596719226510" />
-    <state width="1557" height="134" key="GridCell.Tab.0.bottom" timestamp="1598019209952">
+    <state width="1557" height="92" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1608650196408" />
+    <state width="1557" height="92" key="GridCell.Tab.0.right" timestamp="1608650196408">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="134" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1598019209952" />
-    <state width="1557" height="134" key="GridCell.Tab.0.center" timestamp="1598019209952">
+    <state width="1557" height="92" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1608650196408" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1608650150193">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="134" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1598019209952" />
-    <state width="1557" height="134" key="GridCell.Tab.0.left" timestamp="1598019209952">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="134" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1598019209952" />
-    <state width="1557" height="134" key="GridCell.Tab.0.right" timestamp="1598019209952">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1557" height="134" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1598019209952" />
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup" timestamp="1597490040905">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="456" y="195" width="672" height="677" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1597490040905" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1596911423797">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1596911423797" />
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1608650150193" />
   </component>
 </project>

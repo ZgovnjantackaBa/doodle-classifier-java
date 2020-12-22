@@ -13,6 +13,7 @@ public class LoadBytes {
         byte[] rawBytes = new byte[(length - off) * imageSize * imageSize];
 
         try{
+            //ByteinputStream je trebalo
             FileInputStream fis = new FileInputStream(filePath);
             fis.read(rawBytes, off, length);
         }catch (Exception e){
