@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85227214-1fd8-4426-a202-193689472a55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/artificial_neural_network/ImplementationMnistDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNetwork/META-INF/NeuralNetwork.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNetwork/artificial_neural_network/ImplementationOfNeuralNetwork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNetwork/artificial_neural_network/ImplementationOfNeuralNetwork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNetwork/artificial_neural_network/XorImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNetwork/artificial_neural_network/XorImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNetwork/gui/Skretch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNetwork/gui/Skretch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NeuralNetwork/gui/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NeuralNetwork/gui/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/artificial_neural_network/ImplementationOfNeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/artificial_neural_network/ImplementationOfNeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/artificial_neural_network/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/artificial_neural_network/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/artificial_neural_network/XorImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/artificial_neural_network/XorImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Skretch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Skretch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/Window.java" afterDir="false" />
-    </list>
+    <list default="true" id="85227214-1fd8-4426-a202-193689472a55" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
