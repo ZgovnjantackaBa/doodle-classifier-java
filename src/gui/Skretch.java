@@ -11,11 +11,11 @@ import java.io.File;
 
 public class Skretch extends JComponent implements MouseMotionListener {
 
-    private final int width = 560, height = 560;
+    private final int width = 280, height = 280;
     private BufferedImage skretch;
     private Graphics2D g;
     private int currentX, currentY, oldX, oldY;
-    private final int radius = 20;
+    private final int radius = 12;
 //    private JFrame window;
 //    private JButton button1, button2, button3, button4;
 
@@ -84,6 +84,24 @@ public class Skretch extends JComponent implements MouseMotionListener {
         g.dispose();
         g = skretch.createGraphics();
 
+//        drawScaledImage();
+
         return bimg;
+    }
+
+    public void drawScaledImage(){
+        BufferedImage bimg = new BufferedImage(280, 280, BufferedImage.TYPE_INT_RGB);
+        g.dispose();
+
+        g = bimg.createGraphics();
+        g.drawImage(skretch, 0, 0, 280, 280, this);
+        g.dispose();
+        g = skretch.createGraphics();
+
+        try{
+            ImageIO.write(bimg, "png", new File("scaledImage.png"));
+        }catch (Exception e){
+
+        }
     }
 }

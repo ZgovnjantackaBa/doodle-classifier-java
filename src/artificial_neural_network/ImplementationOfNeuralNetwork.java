@@ -1,12 +1,10 @@
 package artificial_neural_network;
 
 import manageBytes.LoadBytes;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.util.Arrays;
-import java.util.Random;
 
 public class ImplementationOfNeuralNetwork {
 
@@ -17,13 +15,13 @@ public class ImplementationOfNeuralNetwork {
     private final int setNumb = 3;
     private final int setLength = 10000;
     private final int imageSize = 28;
-    private final int trainingSetLength = (int) (setLength * 0.95);
+    private final int trainingSetLength = (int) (setLength * 0.7);
 
     private Network ann;
 
     public ImplementationOfNeuralNetwork() {
 
-        ann = new Network(784, 64, 16, 3);
+        ann = new Network(784, 64, 32, 9, 3);
         initSets();
     }
 
@@ -34,9 +32,9 @@ public class ImplementationOfNeuralNetwork {
         byte[][][] testingSet = new byte[setNumb][setLength - trainingSetLength][];
 
         byte[][][] data = new byte[setNumb][][];
-        data[0] = LoadBytes.readAll("C:\\Users\\DT User6\\Documents\\ArtificialNeuralNetwork\\resources\\cats1000.bin");
-        data[1] = LoadBytes.readAll("C:\\Users\\DT User6\\Documents\\ArtificialNeuralNetwork\\resources\\idk1000.bin");
-        data[2] = LoadBytes.readAll("C:\\Users\\DT User6\\Documents\\ArtificialNeuralNetwork\\resources\\rainbows1000.bin");
+        data[0] = LoadBytes.readAll("resources\\cats1000.bin");
+        data[1] = LoadBytes.readAll("resources\\trains1000.bin");
+        data[2] = LoadBytes.readAll("resources\\rainbows1000.bin");
 
         for (int i = 0; i < setNumb; i++) {
             for (int j = 0; j < trainingSetLength; j++) {
@@ -162,7 +160,7 @@ public class ImplementationOfNeuralNetwork {
         for (int j = 0; j < l; j++) {
             LoadBytes.schuffleTrainingSetsAndTargets(allTrainingSets, targets);
             for (int i = 0; i < allTrainingSets.length; i++) {
-                ann.train(allTrainingSets[i], targets[i], 0.05);
+                ann.train(allTrainingSets[i], targets[i], 0.01);
 //                System.out.println(Arrays.toString(allTrainingSets[i]));
             }
             System.out.println("Eppoch done " + Math.floor((double) j / l * 100) + "%");

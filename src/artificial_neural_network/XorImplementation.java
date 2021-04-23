@@ -1,5 +1,6 @@
 package artificial_neural_network;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -55,8 +56,10 @@ public class XorImplementation {
         System.out.println(Arrays.toString(b));
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException {
         //Pokrenuti nekoliko puta sa mjenjanjem  double[] b = net.calculate(inputi[0-3]);
         new XorImplementation();
+
+        new ImplementationMnistDB();
     }
 }

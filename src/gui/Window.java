@@ -1,15 +1,11 @@
 package gui;
 
 import artificial_neural_network.ImplementationOfNeuralNetwork;
-import artificial_neural_network.Network;
-import manageBytes.LoadBytes;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.nio.ByteBuffer;
-import java.util.Arrays;
+
 
 public class Window extends JFrame implements ActionListener {
 
